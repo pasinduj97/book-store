@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="76dp"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    android:layout_margin="13dp"
+    android:id="@+id/cardview"
+android:elevation="10dp"
+    app:cardBackgroundColor="@color/item"
+    app:cardCornerRadius="18dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/robotobold"
+            android:text="title"
+            android:layout_marginStart="90dp"
+            android:textColor="#FFFF"
+            android:textSize="18sp"
+            />
+
+        <ImageView
+
+            android:layout_marginTop="10dp"
+            android:id="@+id/imageView3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+
+            app:srcCompat="@drawable/book" />
+
+        <TextView
+            android:id="@+id/authoritem"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:fontFamily="@font/robotoregular"
+            android:text="Author"
+
+
+            android:textColor="#FFFF"
+            />
+
+<!--        <Button-->
+<!--            android:id="@+id/ret"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="280dp"-->
+<!--            android:fontFamily="@font/robotoregular"-->
+<!--            android:text="return"-->
+<!--            android:textColor="#FFFF"-->
+<!--            />-->
+
+        <ImageView android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="300dp"
+                android:layout_marginTop="15dp"
+            android:id="@+id/ret"
+            android:src="@drawable/history"></ImageView>
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ViewBook"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="500dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardBackgroundColor="@color/newcol"
+                    app:cardElevation="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/titlev"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:textAlignment="center"
+                                android:layout_marginTop="300dp"
+                            android:textSize="30dp"
+                            android:textColor="@color/textcol1"
+                            android:fontFamily="@font/abrilfatface"
+                            android:text="The Lord Of The Rings" />
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="350dp"
+                            android:text="By gorge martin"
+                            android:textSize="18dp"
+                            android:id="@+id/author"
+                            android:textColor="@color/authorcol"
+                            android:fontFamily="@font/abrilfatface"
+                            android:textAlignment="center"></TextView>
+
+                        <TextView android:layout_width="match_parent"
+                            android:id="@+id/genrev"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="400dp"
+                            android:text="Fiction"
+                            android:textColor="@color/authorcol"
+                            android:fontFamily="@font/abrilfatface"
+                            android:textSize="18dp"
+                            android:textAlignment="center"
+                            ></TextView>
+
+                        <TextView android:layout_width="match_parent"
+                            android:id="@+id/pricev"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="450dp"
+                            android:text="$500"
+                            android:textColor="@color/authorcol"
+                            android:fontFamily="@font/abrilfatface"
+                            android:textSize="18dp"
+                            android:textAlignment="center"
+                            ></TextView>
+
+
+                        <androidx.cardview.widget.CardView android:layout_width="200dp"
+                            android:layout_height="250dp"
+                            android:padding="0dp"
+                            android:layout_marginStart="86dp"
+                            android:layout_marginTop="20dp"
+                            app:cardCornerRadius="15dp">
+                        <ImageView android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/fellowship"
+                            android:id="@+id/img"
+                            ></ImageView></androidx.cardview.widget.CardView>>
+
+
+
+
+
+
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/secondary">
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="530dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+
+                android:textSize="20dp"
+                android:fontFamily="@font/breeserifregular"
+                android:text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, et quas atque nam sapiente, eligendi alias fugit maxime, quae delectus nulla quo debitis dolor odio non cum fugiat recusandae. Maxime?" />
+
+
+        </RelativeLayout>
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout></ScrollView>

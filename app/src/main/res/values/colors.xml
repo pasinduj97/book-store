@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D6AD65</color>
+    <color name="colorPrimaryDark">#82CEF4</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="background">#F7F4F2</color>
+    <color name="item">#D6AD65</color>
+
+    <color name="swiper">#028055</color>
+    <color name="swipel">#8E000C</color>
+    <color name="newcol">#D6AD65</color>
+    <color name="textcol1">#F7F4F2</color>
+    <color name="authorcol">#DBD3CC</color>
+</resources>

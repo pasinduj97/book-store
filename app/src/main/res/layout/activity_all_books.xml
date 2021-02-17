@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllBooksActivity"
+    android:orientation="vertical"
+    android:background="@color/authorcol"
+    >
+
+    <EditText android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_input"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:layout_marginStart="14dp"
+        android:elevation="10dp"
+        android:layout_marginEnd="14dp"
+        android:id="@+id/search"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="Search Books"
+        ></EditText>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+
+
+</LinearLayout>

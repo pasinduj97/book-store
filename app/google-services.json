@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1035043982879",
+    "project_id": "book-store-b4b8b",
+    "storage_bucket": "book-store-b4b8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035043982879:android:69fad67a9b0a8855d24f2a",
+        "android_client_info": {
+          "package_name": "com.koffemakerz.bookstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035043982879-otsgm7b18bnvsj81ma9i5hi5svvus7ln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk_7RlEbYPYjJgiuXTZaMUjbl01YXHq4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035043982879-otsgm7b18bnvsj81ma9i5hi5svvus7ln.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
